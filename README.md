@@ -6,17 +6,17 @@ It is useful for when you forget a necessary step before the current command you
 
 ## Example
 
-```console
-# You finally figure out that perfect commit message...
-# Then, before you hit enter, you realize you need to stage another file, so you hit Ctrl-Q to park
-$ git commit -m "Carefully crafted commit message involving evil race condition<kbd>Ctrl-Q</kbd>
+You finally figure out that perfect commit message, only to realize you need to stage another file. Hit <kbd>Ctrl-Q</kbd> to park:
 
-# The command line is saved, and cleared, allowing you to stage the file
-$ git add main.c<kbd>Enter</kbd>
+`$ git commit -m "Carefully crafted commit message involving evil race condition` <kbd>Ctrl-Q</kbd>
 
-# ...and then the parked command line is magically restored!
-$ git commit -m "Carefully crafted commit message involving evil race condition
-```
+The command line is saved, and cleared, allowing you to stage the file:
+
+`$ git add main.c`<kbd>Enter</kbd>
+
+...and then the parked command line is magically restored:
+
+`$ git commit -m "Carefully crafted commit message involving evil race condition`
 
 ## Configuration
 Send a PR if you want the keybinding to be configurable.
