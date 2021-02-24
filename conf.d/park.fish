@@ -10,4 +10,5 @@ function __park
     end
 end
 
-bind \cq '__park'
+bind --mode default \cq '__park'
+bind --mode insert \cq  '__park'
